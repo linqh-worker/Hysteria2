@@ -65,7 +65,7 @@ hysteria2://密码@IP:端口?insecure=1
 - 请将其中的 密码、IP 和 端口 替换为您在 install.sh 中配置的内容，例如：
 
 ```
-hysteria2://a970a7e3b@107.172.132.243:10101?insecure=1
+hysteria2://da0df8052@127.0.0.1:10101?insecure=1
 ```
 
 - ✅ 该链接可直接用于支持 Hysteria v2 的客户端进行一键导入连接。
