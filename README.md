@@ -56,19 +56,33 @@ chmod +x install.sh
 bash install.sh
 ```
 
-- ✅ 安装完成后，您的客户端连接链接格式如下
+ - ✅  客户端连接链接格式
+
+服务启动完成后，您可以通过以下格式的链接连接到服务器：
 
 ```
 hysteria2://密码@IP:端口?insecure=1
 ```
 
+请将其中的：
+
+- 密码 替换为您在 install.sh 中配置的 auth.password
+
+- IP 替换为您的服务器公网 IP 地址
+
+- 端口 替换为您配置的监听端口（例如 10101）
+
+
 - 请将其中的 密码、IP 和 端口 替换为您在 install.sh 中配置的内容，例如：
+
+🔍 示例链接：
 
 ```
 hysteria2://da0df8052@127.0.0.1:10101?insecure=1
 ```
 
-- ✅ 该链接可直接用于支持 Hysteria v2 的客户端进行一键导入连接。
+- 💡 该链接可直接粘贴到支持 Hysteria v2 的客户端中，便于快速连接。
+
 
 ## 3. 安装与配置步骤
 
@@ -181,6 +195,33 @@ systemctl enable hysteria-server
 systemctl start hysteria-server
 systemctl status hysteria-server
 ```
+
+- ✅  客户端连接链接格式
+
+服务启动完成后，您可以通过以下格式的链接连接到服务器：
+
+```
+hysteria2://密码@IP:端口?insecure=1
+```
+
+请将其中的：
+
+- 密码 替换为您在 install.sh 中配置的 auth.password
+
+- IP 替换为您的服务器公网 IP 地址
+
+- 端口 替换为您配置的监听端口（例如 10101）
+
+
+- 请将其中的 密码、IP 和 端口 替换为您在 install.sh 中配置的内容，例如：
+
+🔍 示例链接：
+
+```
+hysteria2://da0df8052@127.0.0.1:10101?insecure=1
+```
+
+- 💡 该链接可直接粘贴到支持 Hysteria v2 的客户端中，便于快速连接。
 
 ### 4.2 常用命令
 
