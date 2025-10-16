@@ -17,7 +17,7 @@ markdown
 ### 2.1 获取仓库地址
 
 ```
-https://github.com/linqh-worker/Hysteria2.git hysteria && cd hysteria
+git clone https://github.com/linqh-worker/Hysteria2.git hysteria && cd hysteria
 ```
 
 ### 2.2 编辑 Shell 文件修改端口以及密码
