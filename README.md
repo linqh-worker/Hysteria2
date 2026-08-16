@@ -1,6 +1,21 @@
-# Hysteria 2 一键交互式安装脚本
+<p align="center">
+  <img src="./logo.svg" alt="Hysteria 2" width="420">
+</p>
 
-> 全程回车式提问，零手动改配置文件。装完直接给 **客户端配置 + hysteria2:// 链接 + Clash.Meta 片段**，复制就能用。
+<h1 align="center">Hysteria 2 一键交互式安装脚本</h1>
+
+<p align="center">
+  全程回车式提问，零手动改配置文件。装完直接给 <b>客户端配置 + hysteria2:// 链接 + Clash.Meta 片段</b>，复制就能用。
+</p>
+
+<p align="center">
+  <a href="#-一句话速装服务器上执行">速装</a> ·
+  <a href="#-脚本解决了什么痛点">特性</a> ·
+  <a href="#-交互式流程跟着回车就行">交互流程</a> ·
+  <a href="#-装完交付复制直接用">交付内容</a> ·
+  <a href="#-排障速查一问一命令">排障</a> ·
+  <a href="#-卸载六步逐个问-yn">卸载</a>
+</p>
 
 ---
 
